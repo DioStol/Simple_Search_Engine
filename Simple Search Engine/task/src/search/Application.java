@@ -9,7 +9,7 @@ import java.util.Scanner;
 /**
  * @author Dionysios Stolis 4/13/2020
  */
-public class Application {
+class Application {
 
     private Application() {
     }
