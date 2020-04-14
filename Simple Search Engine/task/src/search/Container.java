@@ -30,7 +30,7 @@ public class Container<T> {
             return new Container(readFile(inputStream));
         } catch (Exception e) {
             System.out.println(e.getMessage());
-            return null;
+            return new Container(new ArrayList());
         }
     }
 
